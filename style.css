@@ -23,10 +23,29 @@
     align-items: center;
 }
 /*----HEADER-----*/
+main>section{
+    margin: 2rem 0;
+}
 header{
     background-color: #0084fd;
     color: white;
 }
 header div.header-nav{
     padding: 1rem;
+}
+/*----MAIN-----*/
+section#main-cards{
+    margin-top: 2rem;
+}
+div.cards{
+    flex-direction: column;
+}
+div.card{
+    width: 90%;
+    height: 450px;
+    background-color: purple;
+    border: 10px solid white;
+}
+div.big-card{
+    flex-direction: column;
 }
