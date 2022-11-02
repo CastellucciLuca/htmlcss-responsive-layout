@@ -22,3 +22,11 @@
     justify-content: space-between;
     align-items: center;
 }
+/*----HEADER-----*/
+header{
+    background-color: #0084fd;
+    color: white;
+}
+header div.header-nav{
+    padding: 1rem;
+}
