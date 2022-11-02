@@ -49,3 +49,20 @@ div.card{
 div.big-card{
     flex-direction: column;
 }
+/*-STRATEGIC PLAN SECTION-*/
+section#strategic-planning{
+    background-color: #9792e4;
+}
+div.planning{
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+/*----------------------------------------------------------------
+--------------------RESPONSIVE------------------------------------
+----------------------------------------------------------------*/
