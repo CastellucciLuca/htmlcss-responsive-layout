@@ -68,6 +68,7 @@ div.testimonials-cards div.testimonial-card{
     flex-direction: column;
     text-align: center;
     background-color: #9792e4;
+    border-radius: 2rem;
     margin: 1rem 2rem;
     padding: 1.5rem;
 }
@@ -85,3 +86,36 @@ div.testimonial-card div.testimonial-card-img{
 /*----------------------------------------------------------------
 --------------------RESPONSIVE------------------------------------
 ----------------------------------------------------------------*/
+@media screen and (min-width: 768px){
+    .container{
+        width: 95%;
+    }
+    div.cards{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    div.card:first-child{
+        width: calc((100% / 3) * 2);
+    }
+    div.card{
+        width: calc(100 / 3);
+    }
+    div.testimonial-cards div.testimonial-card{
+        flex-direction: row;
+        text-align: start;
+    }
+}
+
+
+
+@media screen and (min-width: 992px){
+    .container{
+        width: 80%;
+    }
+    div#big-card{
+        flex-direction: row;
+    }
+    div.planning-container{
+        display: flex;
+    }    
+}
