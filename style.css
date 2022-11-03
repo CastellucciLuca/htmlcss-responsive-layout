@@ -477,6 +477,10 @@ footer span.footer-credit{
         margin-left: 1rem;
     }
     /*-ABOUT US SECTION-*/
+    section#about-us{
+        width:100%;
+        height: 750px;
+    }
     div.about-us-container{
         flex-direction: row;
         align-items: flex-start;
@@ -564,7 +568,7 @@ footer span.footer-credit{
     div.about-us-user-linkedn p{
         font-size: 2rem;
     }
-    /*GETSTART SECTION-*/
+    /*GETSTARTED SECTION-*/
     div.get-started-container p{
         font-size: 1.2rem;
         line-height: 1.5;
