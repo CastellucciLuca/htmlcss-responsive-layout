@@ -32,6 +32,9 @@ body{
 a{
     text-decoration: none;
 }
+.blue-text{
+    color: #0084fd;
+}
 .bg-purple{
     background-color: #9792e4;
     color: white;
@@ -48,6 +51,14 @@ a{
 .button-white:hover{
     background-color: black;
     color: white;
+}
+.button-blue{
+    background-color: #0084fd;
+    color: white;
+}
+.button-blue:hover{
+    color: #0084fd;
+    background-color: white;
 }
 /*----HEADER-----*/
 header{
@@ -95,13 +106,46 @@ div.cards{
 }
 div.card{
     width: 90%;
-    height: 400px;
     background-color: #b5ddff;
     border: 10px solid white;
+    border-radius: 2.5rem;
+}
+div.small-card{
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+}
+div.small-card i{
+    font-size: 4rem;
+}
+div.small-card h2{
+    margin: 1rem 3rem;
 }
 div#big-card{
     flex-direction: column;
 }
+section.card-text p,
+div.small-card p{
+    color: #515e69;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 2rem 0;
+}
+div.small-card p{
+    margin: .6rem 0;
+}
+section.card-text{
+    padding: 2rem;
+}
+section.card-text a{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+div.card-img img{
+    display: block;
+    width: 300px;
+}
+
 
 /*-STRATEGIC PLANNING SECTION*/
 section#strategic-planning{
@@ -251,9 +295,20 @@ footer p{
         display: none;
     }
     /*-MAIN
-    -HEADER CARDS-*/
+    -FIRST CARDS-*/
+    div.card{
+        height: 500px;
+    }
+    div.card-img{
+        height: 100%;
+        align-items: flex-end;
+        display: flex;
+    }
     div#big-card{
         flex-direction: row;
+    }
+    section.card-text a.button{
+        padding: .5rem;
     }
     /*-STRATEGIC PLANNING SECTION-*/
     div.planning-container{
