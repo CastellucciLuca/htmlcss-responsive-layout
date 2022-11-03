@@ -7,6 +7,9 @@
     box-sizing: border-box;
 }
 /*--GENERAL--*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
 .container{
     width: 100%;
     margin: 0 auto;
@@ -33,6 +36,19 @@ a{
     background-color: #9792e4;
     color: white;
 }
+/*-BUTTON GENERALS-*/
+.button{
+    padding: .5rem 1.3rem;
+    border-radius: 1rem;
+}
+.button-white{
+    background-color: white;
+    color: black;
+}
+.button-white:hover{
+    background-color: black;
+    color: white;
+}
 /*----HEADER-----*/
 header{
     background-color: #0084fd;
@@ -40,6 +56,25 @@ header{
 }
 header div.header-nav{
     padding: 1rem;
+}
+header nav ul li{
+    list-style: none;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+header li.nav-items{
+    display: none;
+}
+header li#tendina{
+    font-size: 1.5rem;
+    display: block;
+}
+header li#tendina a:hover{
+    color: black;
 }
 /*----MAIN-----*/
 main>section{
@@ -166,12 +201,14 @@ footer p{
     div.cards{
         flex-wrap: wrap;
         flex-direction: row;
+        align-items: flex-end;
     }
     div.card:first-child{
         width: calc((100% / 3) * 2);
     }
     div.card{
         width: calc(100% / 3);
+        height: 500px;
     }
     /*-TESTIMONIAL SECTION-*/
     div.testimonial-cards div.testimonial-card{
@@ -205,6 +242,13 @@ footer p{
     }
     .small-container{
         width: 70%;
+    }
+    /*-HEADER NAV-*/
+    header li.nav-items{
+        display: inline-block;
+    }
+    header li#tendina{
+        display: none;
     }
     /*-MAIN
     -HEADER CARDS-*/
