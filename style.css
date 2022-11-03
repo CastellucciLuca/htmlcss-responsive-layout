@@ -164,7 +164,8 @@ section.card-text a{
 }
 div.card-img img{
     display: block;
-    width: 300px;
+    max-width: 350px;
+    margin: 0 auto;
 }
 
 
@@ -562,9 +563,7 @@ footer span.footer-credit{
         width: calc((100% / 3) - 1rem);
         margin-left: 1rem;
     }
-    section.about-us-user-linkedn-img{
-        
-    }
+
     div.about-us-user-linkedn p{
         font-size: 2rem;
     }
