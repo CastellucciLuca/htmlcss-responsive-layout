@@ -151,8 +151,44 @@ div.card-img img{
 section#strategic-planning{
     background-color: #9792e4;
 }
+div.planning-container{
+    padding: 6rem 0;
+}
 div.planning{
     padding: 1rem;
+    margin-top: 1rem;
+}
+/*Planning Strategic*/
+div.planning-strategic img{
+    width: 100%;
+}
+div.planning-strategic h2{
+    font-size: 2rem;
+    margin: 3rem 0;
+}
+div.planning-strategic p{
+    font-size: 1.2rem;
+}
+/*Planning Plan*/
+div.planning-plan{
+    background-color: white;
+    border-radius: 2rem;
+    color: black;
+    margin: 0 1.5rem;
+    text-align: center;
+}
+div.planning-plan img{
+    width: 100%;
+}
+div.planning-plan h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+div.planning-plan i{
+    background-color: #9792e4;
+    border-radius: 50%;
+    padding: .8rem 1rem;
+    font-size: 1.5rem;
     margin-top: 1rem;
 }
 
@@ -312,7 +348,29 @@ footer p{
     }
     /*-STRATEGIC PLANNING SECTION-*/
     div.planning-container{
+        padding: 3rem 0;
+
         display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    div.planning-strategic{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+    div.planning-strategic img{
+        width: 80%;
+    }
+    div.planning-strategic p{
+        font-size: 1.5rem;
+    }
+    div.planning-plan{
+        width: 30%;
+        height: 100%;
+        align-items: flex-end;
     }
     /*-BENEFITS SECTION-*/
     section#benefits div.benefits-cards{
