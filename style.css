@@ -312,17 +312,12 @@ div.aboutus-container{
     flex-direction: column;
     padding: 1rem;
 }
-div.aboutus-user-linkedin{
+div.about-us-user-linkedn{
     margin-top: 2rem;
     width: 100%;
 }
 div.about-us-container{
-    flex-direction: column;
-    padding: 2rem;
-}
-div.about-us-user-linkedn{
-    margin-top: 2rem;
-    width: 100%;
+    padding: 3rem;
 }
 div.about-us-text h2{
     font-size: 4rem;
@@ -337,9 +332,8 @@ div.about-us-text p:last-child{
 }
 /*-ABOUT-US-IMG-*/
 div.about-us-user-linkedn-img{
-    width:300px;
-    height: 300px;
-    border-radius: 50%;
+    width: 20vw;
+    height: 20vw;
     position: relative;
 }
 div.about-us-user-linkedn-img img{
@@ -353,14 +347,14 @@ div.about-us-user-linkedn-img i{
     right: 0;
     font-size: 4rem;
 }
-div.about-us-user-linkedn-img p{
-    font-size: 2rem;
+div.about-us-user-linkedn p{
+    font-size: 2.5rem;
     font-weight: bold;
     margin-top: 1rem;
 }
-div.about-us-user-linkedn-img a{
+div.about-us-user-linkedn a{
     display: inline-block;
-    margin: 2rem 0;
+    margin-top: 2rem;
 }
 /*-GET STARTED SECTION-*/
 section#get-started{
