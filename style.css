@@ -165,9 +165,8 @@ section.card-text a{
     width: 50%;
 }
 div.card-img img{
-    display: block;
     width: 100%;
-    max-width: 300px;
+    max-width: 250px;
     margin: 0 auto;
 }
 
