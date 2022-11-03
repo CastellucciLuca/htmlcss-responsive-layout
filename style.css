@@ -332,8 +332,6 @@ div.about-us-text p:last-child{
 }
 /*-ABOUT-US-IMG-*/
 div.about-us-user-linkedn-img{
-    width: 20vw;
-    height: 20vw;
     position: relative;
 }
 div.about-us-user-linkedn-img img{
