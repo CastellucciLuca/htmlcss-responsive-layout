@@ -71,6 +71,15 @@ a{
     background-color: #9792e4;
     color: white;
 }
+.button-purple-white{
+    color: #9792e4;
+    background-color: white;
+}
+.button-purple-white:hover{
+    background-color: #9792e4;
+    color: white;
+    border: 1px solid black;
+}
 
 /*----HEADER-----*/
 header{
@@ -362,15 +371,66 @@ section#get-started{
 div.get-started-container{
     padding: 1rem;
 }
+div.get-started-container span.started{
+    display: block;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    font-weight: 200;
+}
+div.get-started-container h3{
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+div.get-started-container h4{
+    font-size: 5rem;
+    color: orange;
+}
+div.get-started-container p{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin: 2rem 0;
+}
+div.get-started-container a{
+    text-align: center;
+}
+div.get-started-container span.copyright{
+    display: block;
+    margin-top: 2rem;
+}
+div.get-started-container span.copyright i{
+    font-size: .3rem;
+    vertical-align: middle;
+    margin: 0.1rem 0;
+}
+div.get-started-container span.copyright a{
+    color: white;
+    border-bottom: 1px solid white;
+}
+div.get-started-container span.copyright a:hover{
+    color: rgb(182, 182, 182);
+    border-bottom: 1px solid rgb(182, 182, 182);
+}
 /*--FOOTER--*/
 footer{
     background-color: #333333;
     color: white;
     text-align: center;
     padding: 1rem;
+    padding-bottom: 2rem;
 }
 footer p{
     margin-bottom: 1rem;
+}
+footer a{
+    color: #9792e4;
+    border-bottom: 1px solid #9792e4;
+}
+footer a:hover{
+    color: #9792e4b7;
+    border-bottom: 1px solid #8f88f3b7;
+}
+footer span.footer-credit{
+    line-height: 1.5rem;
 }
 /*----------------------------------------------------------------
 --------------------RESPONSIVE------------------------------------
@@ -497,5 +557,22 @@ footer p{
     section#benefits div.benefits-card{
         width: calc((100% / 3) - 1rem);
         margin-left: 1rem;
+    }
+    section.about-us-user-linkedn-img{
+        
+    }
+    div.about-us-user-linkedn p{
+        font-size: 2rem;
+    }
+    /*GETSTART SECTION-*/
+    div.get-started-container p{
+        font-size: 1.2rem;
+        line-height: 1.5;
+        margin: 2rem 0;
+        padding: 0 12rem;
+    }
+    /*-FOOTER-*/
+    footer div.small-container{
+        padding:0 15rem;
     }
 }
