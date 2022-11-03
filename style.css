@@ -157,14 +157,17 @@ div.small-card p{
 }
 section.card-text{
     padding: 2rem;
+    width: 50%;
 }
 section.card-text a{
     font-size: 1.5rem;
     margin-bottom: 2rem;
+    width: 50%;
 }
 div.card-img img{
     display: block;
-    max-width: 350px;
+    width: 100%;
+    max-width: 300px;
     margin: 0 auto;
 }
 
